@@ -1,3 +1,10 @@
+:root {
+    --color-primario: #46494C;
+    --color-secundario: #1985A1;
+    --fuente-titulos: "Varela Round", sans-serif;
+    --fuente-texto: "Montserrat", sans-serif;
+}
+
 /* Fuente Titulos */
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 /* Fuente para texto */
@@ -8,12 +15,19 @@
 
 * {
     margin: 0;
-    padding: 0;        
+    padding: 0; 
+    font-size: 15px;
+    font-family: var(--fuente-texto);       
+}
+
+h1, h2, h3 {
+    font-family: var(--fuente-titulos);
 }
 
 header {
-    background-color: gray;
-    padding: 15px;
+    height: 40px;
+    background-color: var(--color-secundario);
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +44,38 @@ header nav ul {
 }
 
 header nav ul li a {
-    text-decoration: none;
+    text-decoration: none;    
+    font-weight: 600;
+    color: var(--color-primario);
+}
+header nav ul li a:hover {
     color: white;
 }
 
+#banner {
+    height: 90vh;
+    background-color: var(--color-primario);
+    color: white;
+    display: flex;
+    align-items: center;      
+}
+
+.sobre_nosotros,
+.nosotros_img {
+    width: 50%; 
+    padding: 50px;   
+}
+
+.sobre_nosotros h1 {
+    font-size: 30px;
+    padding: 10px;
+}
+.sobre_nosotros p {
+    font-size: 18px;        
+}
+
+.nosotros_img img {
+    background-color: var(--color-secundario);  
+    width: 80%;
+    border-radius: 5px;         
+}
