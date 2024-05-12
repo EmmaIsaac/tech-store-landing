@@ -27,8 +27,9 @@ h1, h2, h3 {
 
 h2 {
     text-align: center;
+    font-size: 25px;
     padding: 30px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 header {
@@ -100,7 +101,7 @@ header nav ul li a:hover {
     text-align: center;
     justify-content: space-evenly;
     padding: 30px;
-    
+    gap: 20px;
 }
 
 .contenedor_categorias a {
@@ -124,4 +125,66 @@ header nav ul li a:hover {
 }
 .categoria h3:hover {
     color: var(--color-secundario);
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+    color: var(--color-primario);
+    opacity: 30%;    
+}
+
+
+#productos {
+    padding: 30px;
+}
+
+.contenedor_tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 30px;
+    gap: 30px;    
+}
+
+.tarjeta {
+    width: 300px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    padding: 20px;
+    transition: 0.3s transform;    
+}
+
+.tarjeta h3,
+.tarjeta p,
+.tarjeta a {
+    margin: 10px;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    transform: scale(1.03);
+}
+
+.tarjeta a {
+    background-color: var(--color-secundario);
+    color: white;
+    text-decoration: none; 
+    padding: 7px;
+    border-radius: 5px;    
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+}
+.tarjeta a:hover {
+    background-color: #1fa0c0;
+    
+}
+.tarjeta a i,
+.tarjeta a p {
+    font-weight: bolder;
+}
+
+.tarjeta img {
+    width: 100%;
 }
