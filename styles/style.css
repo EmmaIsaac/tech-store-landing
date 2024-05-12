@@ -115,6 +115,7 @@ header nav ul li a:hover {
     border-radius: 10px;
     width: 300px;
     overflow: hidden;
+    box-shadow: 1px 1px 3px 0px rgba(70,73,76,0.39);
 }
 .categoria img {
     width: 35%;
@@ -153,6 +154,7 @@ hr {
     border-radius: 5px;
     padding: 20px;
     transition: 0.3s transform;    
+    box-shadow: 1px 1px 3px 0px rgba(70,73,76,0.39);
 }
 
 .tarjeta h3,
@@ -165,26 +167,32 @@ hr {
 .tarjeta:hover {
     transform: scale(1.03);
 }
+.tarjeta p {
+    color: var(--color-secundario);
+    font-weight: bolder;    
+}
+
 
 .tarjeta a {
     background-color: var(--color-secundario);
-    color: white;
     text-decoration: none; 
     padding: 7px;
     border-radius: 5px;    
     display: flex;  
     align-items: center; 
     justify-content: center;
+    box-shadow: 1px 1px 3px 0px rgba(70,73,76,0.39);
 }
 .tarjeta a:hover {
     background-color: #1fa0c0;
     
 }
+
 .tarjeta a i,
 .tarjeta a p {
-    font-weight: bolder;
+    color: white;    
 }
 
 .tarjeta img {
-    width: 100%;
+    width: 100%;    
 }
