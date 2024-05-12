@@ -197,6 +197,10 @@ hr {
     width: 100%;    
 }
 
+#contacto {
+    min-height: 80vh;
+}
+
 form {
     width: 400px;
     margin: 0 auto;    
@@ -239,4 +243,37 @@ button {
 }
 button:hover {
     background-color: #1fa0c0;
+}
+
+.skewed-container {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--color-primario);
+}
+
+.skewed {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: white;
+    z-index: 0;
+    transform: skewY(12deg);
+    transform-origin: top right;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: white;
+    height: 50vh;
+}
+
+footer {
+    background-color: var(--color-primario);
+    height: 20vh;
 }
