@@ -276,8 +276,7 @@ button:hover {
 
 .redes {
     display: flex;
-    flex-direction: column;
-    padding: 30px;    
+    flex-direction: column;      
 }
 
 .redes h3 {
@@ -304,7 +303,7 @@ button:hover {
     width:60px;
     height:60px;
     line-height: 63px;
-    bottom:200px;
+    bottom:29vh;
     right:25px;
     background:#25d366;
     color:#FFF;
@@ -315,9 +314,12 @@ button:hover {
     z-index:100;
     transition: all 300ms ease;           
 }
+.wsp i:hover{
+    background: #20ba5a;
+}
 
 footer {
     background-color: var(--color-primario);
-    height: 10vh;
-    padding: 30px;      
+    height: 20vh;
+    padding: 30px;   
 }
