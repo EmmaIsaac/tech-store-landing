@@ -28,8 +28,7 @@ h1, h2, h3 {
 h2 {
     text-align: center;
     font-size: 25px;
-    padding: 30px;
-    /* text-decoration: underline; */
+    padding: 30px;    
 }
 
 header {
@@ -55,24 +54,30 @@ header nav ul li a {
     text-decoration: none;    
     color: white;
     font-family: var(--fuente-titulos);
-    font-size: 16px;     
+    font-size: 16px;         
 }
 header nav ul li a:hover {
-    text-decoration: underline;
+    text-decoration: underline;        
 }
 
 #banner {
-    height: 90vh;
     background-color: var(--color-primario);
     color: white;
-    display: flex;
-    align-items: center;      
+}
+
+.container_banner {
+    display: flex;    
+    justify-content: center;   
+    align-items: center;     
+    gap: 30px;
+    padding: 50px;
+
 }
 
 .sobre_nosotros,
 .nosotros_img {
-    width: 50%; 
-    padding: 50px;   
+    width: 50%;   
+    padding: 30px;         
 }
 
 .sobre_nosotros h1 {
@@ -81,12 +86,11 @@ header nav ul li a:hover {
     color: white;
 }
 .sobre_nosotros p {
-    font-size: 18px;        
+    font-size: 18px;          
 }
 
 .nosotros_img img {
     background-color: var(--color-secundario);  
-    width: 80%;
     border-radius: 5px;         
 }
 
@@ -115,7 +119,11 @@ header nav ul li a:hover {
     border-radius: 10px;
     width: 300px;
     overflow: hidden;
+    transition: 0.3s transform; 
     box-shadow: 1px 1px 3px 0px rgba(70,73,76,0.39);
+}
+.categoria:hover {
+    transform: scale(1.03);
 }
 .categoria img {
     width: 35%;
@@ -297,6 +305,9 @@ button:hover {
 .redes a span {
     color: white;
 }
+.redes a span:hover {
+    text-decoration: underline;
+}
 
 .wsp i {
     position:fixed;
@@ -322,4 +333,36 @@ footer {
     background-color: var(--color-primario);
     height: 20vh;
     padding: 30px;   
+}
+
+
+@media (max-width: 880px) {
+    .container_banner {
+        flex-wrap: wrap                             
+    }
+
+    .sobre_nosotros,
+    .nosotros_img {
+        width: 100%;                
+    }
+
+    #productos {
+        padding: 0;
+    }
+
+    .contenedor_tarjetas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;        
+    }
+}
+
+@media (max-width: 480px) {
+    .nosotros_img img {
+        display: none;
+    }
+
+    form {
+        width: 80%;
+    }    
 }
