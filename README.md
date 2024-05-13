@@ -25,8 +25,8 @@ Tech Paraná es una página web diseñada con HTML y CSS para ofrecer una experi
 
 ## Capturas de Pantalla
 
-![Captura de pantalla 1](screenshots/screenshot1.png)
-![Captura de pantalla 2](screenshots/screenshot2.png)
+![Captura de pantalla 1](assets/screenshots/screenshot1.jpeg)
+![Captura de pantalla 2](assets/screenshots/screenshot2.jpeg)
 
 ## Instrucciones de Uso
 
