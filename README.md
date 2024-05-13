@@ -13,12 +13,11 @@ Este repositorio contiene el código fuente de la página web Tech Paraná, un s
 
 ## Descripción
 
-Tech Paraná es una página web diseñada con HTML y CSS para ofrecer una experiencia de compra conveniente y fácil de usar para los entusiastas de los videojuegos y la tecnología. El sitio presenta una variedad de productos, desde componentes de hardware hasta periféricos y servicios de reparación técnica.
+Tech Paraná es una página web que ofrece una experiencia de compra conveniente y fácil de usar para los entusiastas de los videojuegos y la tecnología. El sitio presenta una variedad de productos, desde componentes de hardware hasta periféricos y servicios de reparación técnica.
 
 ## Características
 
-- Catálogo de productos organizado por categorías.
-- Páginas de detalle de productos con información detallada y opciones de compra.
+- Catálogo de productos organizado por categorías.  
 - Formulario de contacto para consultas y solicitudes de servicio técnico.
 - Diseño responsivo para una experiencia óptima en dispositivos móviles y de escritorio.
 - Estilos modernos y atractivos que reflejan la temática gamer.
