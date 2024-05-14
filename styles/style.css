@@ -1,17 +1,12 @@
+/* Fuente Titulos */ /* font-family: "Montserrat", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --color-primario: #46494C;
     --color-secundario: #1985A1;
     --fuente-titulos: "Montserrat", sans-serif;
     --fuente-texto: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* Fuente Titulos */
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-/* Fuente para texto */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-/* font-family: "Montserrat", sans-serif; */
 
 * {
     margin: 0;
