@@ -351,6 +351,14 @@ footer {
 }
 
 @media (max-width: 480px) {
+    header nav ul {
+        gap: 10px;        
+    }
+    
+    header nav ul li a {
+        font-size: 14px;         
+    }
+    
     .sobre_nosotros {
         padding: 0;
     }
